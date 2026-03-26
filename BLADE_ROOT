@@ -89,6 +89,7 @@ cc_config(
         '-Wno-unused-but-set-variable',
         '-Wno-unused-local-typedefs',
         '-Wno-unused-parameter',
+        '-Wno-array-bounds',
     ],
     # C++ only warning flags
     cxx_warnings=[
