@@ -66,9 +66,12 @@ std::ptrdiff_t WriteTo(int fd, const std::string& data, std::size_t starts_at) {
   } while (true);
 }
 
+struct flose_delete {
+  void operator()(FILE* ptr) const noexcept { fclose(ptr); }
+};
+
 std::string ReadAll(const std::string& path) {
-  std::unique_ptr<FILE, decltype(&fclose)> file{fopen(path.c_str(), "rb"),
-                                                &fclose};
+  std::unique_ptr<FILE, flose_delete> file{fopen(path.c_str(), "rb"), flose_delete()};
   PCHECK(fseek(file.get(), 0, SEEK_END) == 0);
   auto size = ftell(file.get());
   PCHECK(fseek(file.get(), 0, SEEK_SET) == 0);

@@ -15,6 +15,7 @@
 #ifndef YADCC_COMMON_DIR_H_
 #define YADCC_COMMON_DIR_H_
 
+#include <cstdint>
 #include <string>
 #include <vector>
 
