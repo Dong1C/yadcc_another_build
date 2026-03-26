@@ -180,6 +180,9 @@ class TaskDispatcher {
   // Because of network delay problems, this infomation may be out of data.
   std::vector<RunningTask> GetRunningTasks() const;
 
+  // Get cluster statistics.
+  Json::Value GetClusterStats();
+
  private:
   struct ServantDesc : public flare::RefCounted<ServantDesc> {
     ServantPersonality personality;

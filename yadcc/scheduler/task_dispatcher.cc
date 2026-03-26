@@ -613,4 +613,8 @@ Json::Value TaskDispatcher::DumpInternals() {
   return jsv;
 }
 
+Json::Value TaskDispatcher::GetClusterStats() {
+  return DumpInternals();
+}
+
 }  // namespace yadcc::scheduler

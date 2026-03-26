@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "/home/doc/yadcc",
+    "command": "g++ -std=gnu++2a -c -Ibuild64_release/thirdparty/yaml-cpp/include -Ibuild64_release/thirdparty/opentracing-cpp/include -Ibuild64_release/thirdparty/lz4/include -Ibuild64_release/thirdparty/snappy/include -Ibuild64_release/thirdparty/zstd/include -Ibuild64_release/thirdparty/jsoncpp/include -Ithirdparty/googletest -Ithirdparty/protobuf-3.4.1/src -Ibuild64_release/thirdparty/glog/include -Ibuild64_release/thirdparty/gflags/include -Ibuild64_release/thirdparty/zlib/include -Ibuild64_release/thirdparty/fmt/include -Ibuild64_release/thirdparty/openssl/include -Ibuild64_release/thirdparty/curl/include -Ibuild64_release/thirdparty/nghttp2/include yadcc/scheduler/console/render.cc -o build64_release/yadcc/scheduler/console_render.objs/console/render.cc.o",
+    "file": "yadcc/scheduler/console/render.cc",
+    "output": "build64_release/yadcc/scheduler/console_render.objs/console/render.cc.o"
+  },
+  {
+    "directory": "/home/doc/yadcc",
+    "command": "g++ -std=gnu++2a -c -Ibuild64_release/thirdparty/yaml-cpp/include -Ibuild64_release/thirdparty/opentracing-cpp/include -Ibuild64_release/thirdparty/lz4/include -Ibuild64_release/thirdparty/snappy/include -Ibuild64_release/thirdparty/zstd/include -Ibuild64_release/thirdparty/jsoncpp/include -Ithirdparty/googletest -Ithirdparty/protobuf-3.4.1/src -Ibuild64_release/thirdparty/glog/include -Ibuild64_release/thirdparty/gflags/include -Ibuild64_release/thirdparty/zlib/include -Ibuild64_release/thirdparty/fmt/include -Ibuild64_release/thirdparty/openssl/include -Ibuild64_release/thirdparty/curl/include -Ibuild64_release/thirdparty/nghttp2/include yadcc/scheduler/console/node_info.cc -o build64_release/yadcc/scheduler/console_node_info.objs/console/node_info.cc.o",
+    "file": "yadcc/scheduler/console/node_info.cc",
+    "output": "build64_release/yadcc/scheduler/console_node_info.objs/console/node_info.cc.o"
+  },
+  {
+    "directory": "/home/doc/yadcc",
+    "command": "g++ -std=gnu++2a -c -Ibuild64_release/thirdparty/yaml-cpp/include -Ibuild64_release/thirdparty/opentracing-cpp/include -Ibuild64_release/thirdparty/lz4/include -Ibuild64_release/thirdparty/snappy/include -Ibuild64_release/thirdparty/zstd/include -Ibuild64_release/thirdparty/jsoncpp/include -Ithirdparty/googletest -Ithirdparty/protobuf-3.4.1/src -Ibuild64_release/thirdparty/glog/include -Ibuild64_release/thirdparty/gflags/include -Ibuild64_release/thirdparty/zlib/include -Ibuild64_release/thirdparty/fmt/include -Ibuild64_release/thirdparty/openssl/include -Ibuild64_release/thirdparty/curl/include -Ibuild64_release/thirdparty/nghttp2/include yadcc/scheduler/console/node_list_view.cc -o build64_release/yadcc/scheduler/console_node_list_view.objs/console/node_list_view.cc.o",
+    "file": "yadcc/scheduler/console/node_list_view.cc",
+    "output": "build64_release/yadcc/scheduler/console_node_list_view.objs/console/node_list_view.cc.o"
+  },
+  {
+    "directory": "/home/doc/yadcc",
+    "command": "g++ -std=gnu++2a -c -Ibuild64_release/thirdparty/yaml-cpp/include -Ibuild64_release/thirdparty/opentracing-cpp/include -Ibuild64_release/thirdparty/lz4/include -Ibuild64_release/thirdparty/snappy/include -Ibuild64_release/thirdparty/zstd/include -Ibuild64_release/thirdparty/jsoncpp/include -Ithirdparty/googletest -Ithirdparty/protobuf-3.4.1/src -Ibuild64_release/thirdparty/glog/include -Ibuild64_release/thirdparty/gflags/include -Ibuild64_release/thirdparty/zlib/include -Ibuild64_release/thirdparty/fmt/include -Ibuild64_release/thirdparty/openssl/include -Ibuild64_release/thirdparty/curl/include -Ibuild64_release/thirdparty/nghttp2/include yadcc/scheduler/console/node_detail_panel.cc -o build64_release/yadcc/scheduler/console_node_detail_panel.objs/console/node_detail_panel.cc.o",
+    "file": "yadcc/scheduler/console/node_detail_panel.cc",
+    "output": "build64_release/yadcc/scheduler/console_node_detail_panel.objs/console/node_detail_panel.cc.o"
+  },
+  {
+    "directory": "/home/doc/yadcc",
+    "command": "g++ -std=gnu++2a -c -Ibuild64_release/thirdparty/lz4/include -Ibuild64_release/thirdparty/snappy/include -Ibuild64_release/thirdparty/zstd/include -Ibuild64_release/thirdparty/opentracing-cpp/include -Ibuild64_release/thirdparty/curl/include -Ibuild64_release/thirdparty/nghttp2/include -Ibuild64_release/thirdparty/openssl/include -Ibuild64_release/thirdparty/yaml-cpp/include -Ithirdparty/protobuf-3.4.1/src -Ibuild64_release/thirdparty/jsoncpp/include -Ibuild64_release/thirdparty/fmt/include -Ithirdparty/googletest -Ibuild64_release/thirdparty/glog/include -Ibuild64_release/thirdparty/googletest/include -Ibuild64_release/thirdparty/gperftools/include -Ibuild64_release/thirdparty/gflags/include -Ibuild64_release/thirdparty/zlib/include yadcc/scheduler/console/console_test.cc -o build64_release/yadcc/scheduler/console_test.objs/console/console_test.cc.o",
+    "file": "yadcc/scheduler/console/console_test.cc",
+    "output": "build64_release/yadcc/scheduler/console_test.objs/console/console_test.cc.o"
+  },
+  {
+    "directory": "/home/doc/yadcc",
+    "command": "g++ -std=gnu++2a -c -Ibuild64_release/thirdparty/yaml-cpp/include -Ibuild64_release/thirdparty/opentracing-cpp/include -Ibuild64_release/thirdparty/lz4/include -Ibuild64_release/thirdparty/snappy/include -Ibuild64_release/thirdparty/zstd/include -Ibuild64_release/thirdparty/jsoncpp/include -Ithirdparty/googletest -Ithirdparty/protobuf-3.4.1/src -Ibuild64_release/thirdparty/glog/include -Ibuild64_release/thirdparty/gflags/include -Ibuild64_release/thirdparty/zlib/include -Ibuild64_release/thirdparty/fmt/include yadcc/scheduler/task_dispatcher.cc -o build64_release/yadcc/scheduler/task_dispatcher.objs/task_dispatcher.cc.o",
+    "file": "yadcc/scheduler/task_dispatcher.cc",
+    "output": "build64_release/yadcc/scheduler/task_dispatcher.objs/task_dispatcher.cc.o"
+  },
+  {
+    "directory": "/home/doc/yadcc",
+    "command": "g++ -std=gnu++2a -c -Ibuild64_release/thirdparty/yaml-cpp/include -Ibuild64_release/thirdparty/opentracing-cpp/include -Ibuild64_release/thirdparty/lz4/include -Ibuild64_release/thirdparty/snappy/include -Ibuild64_release/thirdparty/zstd/include -Ibuild64_release/thirdparty/jsoncpp/include -Ithirdparty/googletest -Ithirdparty/protobuf-3.4.1/src -Ibuild64_release/thirdparty/glog/include -Ibuild64_release/thirdparty/gflags/include -Ibuild64_release/thirdparty/zlib/include -Ibuild64_release/thirdparty/fmt/include yadcc/scheduler/running_task_bookkeeper.cc -o build64_release/yadcc/scheduler/running_task_bookkeeper.objs/running_task_bookkeeper.cc.o",
+    "file": "yadcc/scheduler/running_task_bookkeeper.cc",
+    "output": "build64_release/yadcc/scheduler/running_task_bookkeeper.objs/running_task_bookkeeper.cc.o"
+  }
+]

@@ -93,6 +93,62 @@ cc_test(
   ]
 )
 
+cc_library(
+  name = 'console_render',
+  hdrs = 'console/render.h',
+  srcs = 'console/render.cc',
+  deps = [
+    ':task_dispatcher',
+  ]
+)
+
+cc_library(
+  name = 'console_node_info',
+  hdrs = 'console/node_info.h',
+  srcs = 'console/node_info.cc',
+  deps = [
+    '//flare/base:logging',
+    '//thirdparty/jsoncpp:jsoncpp',
+    ':task_dispatcher',
+  ]
+)
+
+cc_library(
+  name = 'console_node_list_view',
+  hdrs = 'console/node_list_view.h',
+  srcs = 'console/node_list_view.cc',
+  deps = [
+    ':console_node_info',
+    ':console_render',
+  ]
+)
+
+cc_library(
+  name = 'console_node_detail_panel',
+  hdrs = 'console/node_detail_panel.h',
+  srcs = 'console/node_detail_panel.cc',
+  deps = [
+    ':console_node_info',
+    ':console_render',
+    '//yadcc/api:scheduler_proto',
+  ]
+)
+
+cc_test(
+  name = 'console_test',
+  srcs = 'console/console_test.cc',
+  deps = [
+    ':console_node_info',
+    ':console_node_list_view',
+    ':console_node_detail_panel',
+    ':console_render',
+    ':task_dispatcher',
+    '//flare/testing:main',
+    '//thirdparty/googletest:gmock',
+    '//yadcc/api:scheduler_proto',
+  ]
+)
+
 
 cc_binary(
   name = 'yadcc-scheduler',
