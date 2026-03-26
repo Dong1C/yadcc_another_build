@@ -90,6 +90,7 @@ cc_config(
         '-Wno-unused-local-typedefs',
         '-Wno-unused-parameter',
         '-Wno-array-bounds',
+        '-Wno-stringop-overread',
     ],
     # C++ only warning flags
     cxx_warnings=[
